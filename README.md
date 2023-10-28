@@ -24,28 +24,28 @@ This project provides a RESTful API for managing tasks in a todo list. It includ
 - Flask (automatically installed via `requirements.txt`)
 
 ## Installation
-1. Clone the repository:
-   git clone https://github.com/yourusername/todo-api.git
+1. # Clone the repository:
+   git clone https://github.com/Alija69/todo.git
    cd todo
 
-2. Create virtual environment
-   python -m venv venv
+2. # Create virtual environment
+     python -m venv venv
    # On Windows:
-   venv\Scripts\activate
+    venv\Scripts\activate
    # On macOS and Linux:
-   source venv/bin/activate
+    source venv/bin/activate
    
-3.Install requirements
-  pip install -r requirements.txt
+3. # Install requirements
+    pip install -r requirements.txt
 
-4. Create .env file and set environment variables as .env.example file
+4. # Create .env file and set environment variables as .env.example file
    
-5. create .flaskenv and add assign value as below
-   FLASK_APP=main.py
-   FLASK_DEBUG = false
-   FLASK_RUN_PORT = 8080
+5. # create .flaskenv and add assign value as below
+     FLASK_APP=main.py
+     FLASK_DEBUG = false
+     FLASK_RUN_PORT = 8080
    
-Now run command flask run to start your app
+## Now run command flask run to start your app
    
 
 
